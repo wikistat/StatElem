@@ -1,36 +1,40 @@
-###<a href="http://www.insa-toulouse.fr/" ><img src="http://www.math.univ-toulouse.fr/~besse/Wikistat/Images/Logo_INSAvilletoulouse-RVB.png" style="float:left; max-width: 80px; display: inline" alt="INSA"/> |  [*Mathématiques Appliquées*](http://www.math.insa-toulouse.fr/fr/index.html), [`Statistique`](http://www.math.insa-toulouse.fr/fr/enseignement.html)
+##<a href="http://www.insa-toulouse.fr/" ><img src="http://www.math.univ-toulouse.fr/~besse/Wikistat/Images/Logo_INSAvilletoulouse-RVB.png" style="float:left; max-width: 80px; display: inline" alt="INSA"/> |  [*Mathématiques Appliquées*](http://www.math.insa-toulouse.fr/fr/index.html), [`Science des Données`](http://www.math.insa-toulouse.fr/fr/enseignement.html) 
 
-# Tutoriels de Statistique  en [R](https://cran.r-project.org/)
-# [Outils statistiques de base](\http://wikistat.fr)
+Schématiquement, la **Science des Données** est définie autour d'une *agrégation de compétences* en Informatique (langage comme [R](href="https://cran.r-project.org/) et [Python](https://www.python.org/) , gestion des données, calcul parallèle...), Statistique (exploration, estimation test, modélisaiton, prévision) Apprentissage Machine (prévision), Mathématiques (probabilités, optimisation, analyse fonctionnelle, graphes...). 
 
-### Objectifs
+Son **apprentissage** est acquis par l'intermédiaire de scénarios d'analyse de données réelles, ou *tutoriel*, présentés sous forme de *calepins* ([*jupyter notebooks*](http://jupyter.org/)) en [R](href="https://cran.r-project.org/) ou [Python](https://www.python.org/).
 
-L'objectif de ces tutoriels, présentés sous forme de calepins ([*jupyter notebooks*](http://jupyter.org/)), est d'introduire, à l'aide de scénarios ou tutoriels codés en R ou Python, les méthodes et techniques de Statistique. Ces sénarios détaillent des exemples ou cas d'usage  d'analyses de données "réelles".  Ce dépôt est consacré à l'initiaion à la Statistique. D'autres scénarios sont proposés sur [wikistat.fr](http://wikistat.fr/); ils vont progressivement migrer ici au fur et à mesure de leur développement un Python. Les méthodes sont exposées dans les vignettes de [wikistat](http://wikistat.fr/).
+Cette **pratique** est **indispensable** mais masque les *aspects théoriques* (mathématiques, statistiques): une *formule* est remplacée par un commande ou fonction en Python ou R, une *démonstration* par l'exécution d'exemples dans un calepin.
 
-### Prérequis
+Pour offrir de la *profondeur*, plus de compréhension, à cette (auto)-formation, les calepins renvoient (liens hypertextes) systématiquement à des **vignettes "théoriques"**  du site [wikistat.fr](http://wikistat.fr/) exposant en détail (cours) les méthodes et algorithmes concernés.
+
+Il ne s'agit pas simplement de pouvoir exécuter une méthode, un algorithme, il est important d'en **comprendre les propriétés**, conditions d'utilisation et limites.
+
+# Saison 1 *Statistique élémentaire avec [R](https://cran.r-project.org/)*
+
+## Objectifs
+
+Cette saison est consacrée à l'apprentisage des premiers éléments de Statistique: description, éléments de probabilités, estimation, test, régression linéaire simple, introduction au cas multidimensionnel: analyse en composantes principales, régression multiple, modèle linéaire général.
+
+## Prérequis
 Avoir acquis les compétences afférentes ou revenir sur des épisodes précédents:
 
 - [Initiation à R](https://github.com/wikistat/Intro-R)
 
-### Organisation
-Suivre séquentiellement la **présentation des méthodes** ci-dessous en exécutant, en parallèle, les calepins "fil rouge" ([prévision des pics d'ozone](https://github.com/wikistat/Apprentissage/tree/master/Pic-ozone)) en R et Python.
+## Organisation
 
-Les [`exemples jouets`](https://github.com/wikistat/Apprentissage/tree/master/ExemplesJouet) servent aussi de *bac à sable* pour expérimenter chaque méthode. 
+Excécuter les calepins de la saison en se référant aux vignettes "théoriques" lorsque c'est nécessaire. 
 
-### Pour aller plus loin
+## Pour aller plus loin
 
 - [Initiation à Python](https://github.com/wikistat/Intro-Python)
-- [Exploration Statistique pour la Science des Données](https://github.com/wikistat/Exploration). Cet épisode intègre les algorithmes d'apprentissage non-supervisé (*clustering*).
-- [Apprentissage Statistique pour la Science des Données](https://github.com/wikistat/Apprentissage)
+- [Exploration Statistique](https://github.com/wikistat/Exploration). Cette saison intègre les algorithmes d'apprentissage non-supervisé (*clustering*).
+- [Apprentissage Machine / Statistique](https://github.com/wikistat/Apprentissage)
 - [Technologies des grosses data](https://github.com/wikistat/Ateliers-Big-Data) (Spark, XGBoost, Keras...)
 
-## Présentation des méthodes (en travaux)
+## Scénarios
 
-Les vignettes de présentation des principaux outils de la Statistique sont accessibles sur le site [wikistat.fr](http://wikistat.fr/).
-
-Suivre les tutoriels ci-dessous pour les mettre en oeuvre en se référent, lorsque c'est nécessaire, à la vignette concernée.
-
-- [Prévision de la concentration en ozone](https://github.com/wikistat/StatElem/blob/master/StatElem-R-Ozone.ipynb) Statistique descriptive, estimation, test, régression linéaire simple, introduction au cas multidimensionnel (analyse en composantes principales, régression linéaire multiple.
+- [Prévision de la concentration en ozone](https://github.com/wikistat/StatElem/blob/master/StatElem-R-Ozone.ipynb) (Rennes) Statistique descriptive, estimation, test, régression linéaire simple, introduction au cas multidimensionnel (analyse en composantes principales, régression linéaire multiple.
 - [Modèle linéaire général](https://github.com/wikistat/StatElem/blob/master/StatElem-R-MLG.ipynb) Modèles gaussiens et binomial, exemples avec R.
 - A compléter...
 
