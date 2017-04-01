@@ -2,7 +2,7 @@
 
 # Science des Données & Statistique
 
-Schématiquement, la **Science des Données** est définie autour d'une *agrégation de compétences* en Informatique (langage comme [R](href="https://cran.r-project.org/) et [Python](https://www.python.org/) , gestion des données, calcul parallèle...), Statistique (exploration, estimation test, modélisaiton, prévision) Apprentissage Machine (prévision), Mathématiques (probabilités, optimisation, analyse fonctionnelle, graphes...). 
+Schématiquement, la **Science des Données** est définie autour d'une *agrégation de compétences* en Informatique (langage comme [R](href="https://cran.r-project.org/) et [Python](https://www.python.org/) , gestion des données, calcul parallèle...), Statistique (exploration, estimation test, modélisation, prévision) Apprentissage Machine (prévision), Mathématiques (probabilités, optimisation, analyse fonctionnelle, graphes...). 
 
 Son **apprentissage** est acquis par l'intermédiaire de scénarios d'analyse de données réelles, ou *tutoriel*, présentés sous forme de *calepins* ([*jupyter notebooks*](http://jupyter.org/)) en [R](href="https://cran.r-project.org/) ou [Python](https://www.python.org/).
 
@@ -37,6 +37,7 @@ Excécuter les calepins de la saison en se référant aux vignettes "théoriques
 ## Scénarios
 
 - [Prévision de la concentration en ozone](https://github.com/wikistat/StatElem/blob/master/StatElem-R-Ozone.ipynb) (Rennes) Statistique descriptive, estimation, test, régression linéaire simple, introduction au cas multidimensionnel (analyse en composantes principales, régression linéaire multiple.
+- [Analyse d'une cohorte familiale](https://github.com/wikistat/StatElem/blob/master/StatElem-R-StatLab.ipynb) Statistique descriptive, estimation, test, régression linéaire simple, introduction au cas multidimensionnel (analyse en composantes principales, régression linéaire multiple.
 - [Modèle linéaire général](https://github.com/wikistat/StatElem/blob/master/StatElem-R-MLG.ipynb) Modèles gaussiens et binomial, exemples avec R.
 - A compléter...
 
